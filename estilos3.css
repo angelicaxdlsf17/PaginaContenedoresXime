@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+
+.general{
+    background-image:url("v2.jpg");
+    background-repeat: no-repeat;
+    background-size:1380px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+} 
+
+.principal{
+    /* border: 5px solid red;*/
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(4, 4, 4);
+    text-align:center;
+}
+
+.principal_titulo{
+    font-size: 40px;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.principal_parrafo{
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+.principal_boton{
+    width:100px;
+    height:30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:rgb(206, 103, 68);
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: "bebas neue";
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.redesSociales{
+    color:white;
+    background-color: rgb(176, 137, 104);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 70px;
+
+}
+
+.redesSociales_logo{
+    height:25px;
+    margin-right:10px;
+    margin-left:10px;
+
+}
+.menu{
+    background-color:rgb(221, 184, 146);
+    height: 80px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size:20px;
+    font-family:sans-serif;
+}
+
+.menu_logo{
+    height: 60px;
+}
+
+.menu_lista{
+    display:flex;
+    list-style: none;
+}
+
+.menu_lista_elementos{
+    margin-left:50px;
+}
+
+
+.menu_lista_link{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+}
+
+.menu_lista_link:hover{
+    color:rgb(253, 255, 255);    
+}
+
+.footer{
+    background: linear-gradient(rgb(176, 137, 104) , rgb(221, 184, 146));
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: "Play" , sans-serif;
+    margin-top:50px;
+}
+
+h1,p{
+    margin: 18px;
+    text-align:center;
+}
+
+.contDerecha{
+    border: 7px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: flex-start; 
+}
+
+.cuadroDerecho_boton{
+   background-color: rgb(176, 137, 104);
+   width: 125px;
+   height: 35px;
+   color: rgb(255, 255, 255);
+   border-radius: 5%;
+   border: none;
+   font-family: "bebas neue";
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.contDerecha__img{
+    width: 30%;
+}
+
+.ParteDerecha__texto{
+    width: 40%;
+}
